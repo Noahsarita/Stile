@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #8B0000;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header svg {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+header h1 {
+    display: inline;
+    margin-left: 10px;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    padding: 2em;
+}
+
+nav {
+    background-color: #8B0000;
+    padding: 1em;
+    flex: 0 0 200px;
+    margin-right: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 1em 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 0.5em;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: blue;
+    transform: scale(1.1);
+}
+
+section {
+    flex: 1;
+}
+
+footer {
+    background-color: #8B0000;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+}
+.img-inicio{
+    width: 200px;
+    height: 200px;
+}
+
+
+#productos {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#productos h2 {
+    color: #333;
+    text-align: center;
+}
+#productos ul {
+    list-style-type: none;
+    padding: 0;
+}
+#productos li {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+#productos li img {
+    max-width: 100px;
+    margin-right: 20px;
+}
+#productos .producto-info {
+    flex: 1;
+}
+#productos .producto-nombre {
+    font-weight: bold;
+    font-size: 18px;
+}
+#productos .producto-precio {
+    color: #007bff;
+    font-size: 16px;
+}
+#formas-de-pago {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+#formas-de-pago h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#formas-de-pago ul {
+    list-style-type: none;
+    padding: 0;
+}
+#formas-de-pago li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+    transition: transform 0.3s ease-in-out;
+}
+#formas-de-pago li:hover {
+    transform: scale(1.1);
+    color: #007bff;
+}
